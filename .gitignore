@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+server/.env
+
+# Uploads (temporary files)
+server/uploads/
+server/automated_folders/
+
+# Google credentials (IMPORTANT - DO NOT PUSH!)
+server/credentials.json
+server/token.json
+
+# Build files
+client/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
